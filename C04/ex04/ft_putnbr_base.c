@@ -12,11 +12,11 @@
 
 #include <unistd.h>
 
-int		main_check(char *base)
+int	main_check(char *base)
 {
-	int i;
-	int j;
-	int flag;
+	int	i;
+	int	j;
+	int	flag;
 
 	flag = 1;
 	i = 0;
@@ -33,9 +33,9 @@ int		main_check(char *base)
 	return (flag);
 }
 
-int		base_check(char *base, int *length)
+int	base_check(char *base, int *length)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (base[*length])
@@ -80,11 +80,12 @@ void	print(int n, char *base, int length)
 
 void	ft_putnbr_base(int nbr, char *base)
 {
-	int length;
-	int i;
+	int	length;
+	int	i;
 
 	length = 0;
-	if ((i = base_check(base, &length)) == 0)
+	i = base_check(base, &length);
+	if (i == 0)
 		return ;
 	print(nbr, base, length);
 }

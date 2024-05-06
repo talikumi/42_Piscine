@@ -15,8 +15,8 @@
 
 void	ft_rev_int_tab(int *tab, int size)
 {
-	int iterator;
-	int box;
+	int	iterator;
+	int	box;
 
 	iterator = 0;
 	while (iterator < size / 2)

@@ -20,7 +20,7 @@ void	ft_putchar(char c)
 
 void	ft_putstr(char *str)
 {
-	int iterator;
+	int	iterator;
 
 	iterator = 0;
 	while (str[iterator] != '\0')

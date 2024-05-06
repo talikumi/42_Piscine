@@ -13,9 +13,9 @@
 #include <unistd.h>
 #include <string.h>
 
-int		check(char *str, int i)
+int	check(char *str, int i)
 {
-	int check;
+	int	check;
 
 	check = 0;
 	if (str[i] >= '0' && str[i] <= '9')
@@ -29,8 +29,8 @@ int		check(char *str, int i)
 
 char	*ft_strcapitalize(char *str)
 {
-	int i;
-	int up_case;
+	int	i;
+	int	up_case;
 
 	i = 0;
 	up_case = 1;

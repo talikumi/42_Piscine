@@ -13,26 +13,26 @@
 #include <unistd.h>
 #include <string.h>
 
-void ft_sort_int_tab(int *tab, int size)
+void	ft_sort_int_tab(int *tab, int size)
 {
-    int iterator;
-    int inner_iterator;
-    int temp;
+	int	iterator;
+	int	inner_iterator;
+	int	temp;
 
-    iterator = 0;
-    while (iterator < size - 1)
-    {
-        inner_iterator = 0;
-        while (inner_iterator < size - 1)
-        {
-            if (tab[inner_iterator] > tab[inner_iterator + 1])
-            {
-                temp = tab[inner_iterator + 1];
-                tab[inner_iterator + 1] = tab[inner_iterator];
-                tab[inner_iterator] = temp;
-            }
-            inner_iterator++;
-        }
-        iterator++;
-    }
+	iterator = 0;
+	while (iterator < size - 1)
+	{
+		inner_iterator = 0;
+		while (inner_iterator < size - 1)
+		{
+			if (tab[inner_iterator] > tab[inner_iterator + 1])
+			{
+				temp = tab[inner_iterator + 1];
+				tab[inner_iterator + 1] = tab[inner_iterator];
+				tab[inner_iterator] = temp;
+			}
+			inner_iterator++;
+		}
+		iterator++;
+	}
 }

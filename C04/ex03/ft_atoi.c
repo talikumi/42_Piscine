@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int		check(char c)
+int	check(char c)
 {
 	if (c == 32 || (c >= 9 && c <= 13))
 		return (0);
@@ -31,12 +31,12 @@ void	conversion(char c, int check, int *n)
 	}
 }
 
-int		ft_atoi(char *str)
+int	ft_atoi(char *str)
 {
-	int sign;
-	int flag;
-	int n;
-	int i;
+	int	sign;
+	int	flag;
+	int	n;
+	int	i;
 
 	sign = 0;
 	flag = 0;

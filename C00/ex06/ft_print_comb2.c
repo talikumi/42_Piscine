@@ -12,38 +12,38 @@
 
 #include <unistd.h>
 
-void print_digits(int num1, int num2)
+void	print_digits(int num1, int num2)
 {
-    char digit;
+	char	digit;
 
-    digit = num1 / 10 + '0';
-    write(1, &digit, 1);
-    digit = num1 % 10 + '0';
-    write(1, &digit, 1);
-    write(1, " ", 1);
-    digit = num2 / 10 + '0';
-    write(1, &digit, 1);
-    digit = num2 % 10 + '0';
-    write(1, &digit, 1);
+	digit = num1 / 10 + '0';
+	write(1, &digit, 1);
+	digit = num1 % 10 + '0';
+	write(1, &digit, 1);
+	write(1, " ", 1);
+	digit = num2 / 10 + '0';
+	write(1, &digit, 1);
+	digit = num2 % 10 + '0';
+	write(1, &digit, 1);
 }
 
 void	ft_print_comb2(void)
 {
-	int first_num;
-    int second_num;
+	int	first_num;
+	int	second_num;
 
-    first_num = 0;
-    second_num = 1;
-    while (first_num <= 98)
-    {
-        while (second_num <= 99)
-        {
-            print_digits(first_num, second_num);
-            if (!(first_num == 98 && second_num == 99))
-                write(1, ", ", 2);
-            second_num++;
-        }
-        first_num++;
-        second_num = first_num + 1;
-    }
+	first_num = 0;
+	second_num = 1;
+	while (first_num <= 98)
+	{
+		while (second_num <= 99)
+		{
+			print_digits(first_num, second_num);
+			if (!(first_num == 98 && second_num == 99))
+				write(1, ", ", 2);
+			second_num++;
+		}
+		first_num++;
+		second_num = first_num + 1;
+	}
 }

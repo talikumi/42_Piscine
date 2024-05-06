@@ -15,12 +15,11 @@
 
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
-	unsigned int i;
-	unsigned int k;
+	unsigned int	i;
+	unsigned int	k;
 
 	i = 0;
 	k = 0;
-
 	while (dest[k] != '\0')
 	{
 		k++;
@@ -29,22 +28,11 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	{
 		dest[k + i] = src[i];
 		i++;
-        k++;
+		k++;
 	}
-
 	if (i < size - 1)
 		dest[i] = 0;
 	else
 		dest[size - 1] = 0;
 	return (i);
-}
-
-int main()
-{
-	char source[] = {"My Original Source"};
-	char destination[] = {"and its destination"};
-
-	ft_strlcpy(destination, source, 50);
-	
-	printf("%s", destination);
 }

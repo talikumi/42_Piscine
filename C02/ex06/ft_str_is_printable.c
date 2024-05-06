@@ -13,10 +13,10 @@
 #include <unistd.h>
 #include <string.h>
 
-int		ft_str_is_printable(char *str)
+int	ft_str_is_printable(char *str)
 {
-	int flag;
-	int i;
+	int	flag;
+	int	i;
 
 	i = 0;
 	flag = 1;

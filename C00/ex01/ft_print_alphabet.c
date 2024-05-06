@@ -14,7 +14,7 @@
 
 void	ft_print_alphabet(void)
 {
-	char c;
+	char	c;
 
 	c = 97;
 	while (c < 123)
