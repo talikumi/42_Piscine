@@ -6,6 +6,7 @@ Files for C Piscine (2020) - 3 weeks
 * [Subjects](#subjects)
 * [Usage](#usage)
 * [Project Status](#project-status)
+* [Additional Notes](#additional-notes)
 
 ## Subjects
 
@@ -21,4 +22,5 @@ Project is: _complete_ & _no longer being worked on_.
 
 ### Additional Notes
 
-My C Notes (mostly in Italian)
+[My C Notes (mostly in Italian)](https://ninads.notion.site/4c1609df09cf4414a360c3409e03a531?v=ae958463d1a846358119b10efd8afc7f&pvs=4)
+
