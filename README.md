@@ -3,7 +3,7 @@
 Files for C Piscine (2020) - 3 weeks
 
 ## Table of Contents
-* [General Info](#subjects)
+* [Subjects](#subjects)
 * [Usage](#usage)
 * [Project Status](#project-status)
 
