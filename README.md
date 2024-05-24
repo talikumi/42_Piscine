@@ -3,11 +3,11 @@
 Files for C Piscine (2020) - 3 weeks
 
 ## Table of Contents
-* [General Info](#general-information)
+* [General Info](#subjects)
 * [Usage](#usage)
 * [Project Status](#project-status)
 
-## Subject(s)
+## Subjects
 
 [Subjects - 42](https://ninads.notion.site/Subjects-42-39a82a431ded44db89fe1f75fbe5076a?pvs=4)
 
