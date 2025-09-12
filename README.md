@@ -3,10 +3,17 @@
 Files for C Piscine (2020) - 3 weeks
 
 ## Table of Contents
-* [Subjects](#subjects)
+
+* [Summary](#summary)
+* [Subject](#subject)
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Additional Notes](#additional-notes)
+
+
+## Summary
+
+Collection of C programming exercises from the 42 School Piscine, covering fundamental concepts such as memory management, pointers, strings, data structures, algorithms, and problem-solving. Designed to build a solid foundation in low-level programming through intensive practice.
 
 ## Subjects
 
